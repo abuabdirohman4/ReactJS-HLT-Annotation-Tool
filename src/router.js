@@ -60,7 +60,11 @@ const routes = [
     exact: true,
   },
   // Ecommerce
-
+  {
+    path: '/ecommerce/dashboard',
+    Component: loadable(() => import('pages/ecommerce/dashboard')),
+    exact: true,
+  },
   {
     path: '/ecommerce/orders',
     Component: loadable(() => import('pages/ecommerce/orders')),
