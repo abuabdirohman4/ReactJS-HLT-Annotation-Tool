@@ -13,7 +13,7 @@ class SubBar extends React.Component {
           </li>
           <li className={styles.breadcrumb}>
             <a href="#" className={`${styles.breadcrumbLink} ${styles.breadcrumbLink__current}`}>
-              Dashboard
+              Projects
             </a>
           </li>
         </ul>

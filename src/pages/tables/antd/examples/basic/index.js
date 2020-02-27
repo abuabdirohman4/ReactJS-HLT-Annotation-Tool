@@ -4,7 +4,7 @@ import data from './data.json'
 
 const columns = [
   {
-    title: 'Name',
+    title: 'Type',
     dataIndex: 'name',
     key: 'name',
     render: text => <a href="javascript:;">{text}</a>,

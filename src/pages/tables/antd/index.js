@@ -30,7 +30,7 @@ class TablesAntd extends React.Component {
         <div className="card">
           <div className="card-body">
             <h4 className="mb-4">
-              <strong>Basic Usage</strong>
+              <strong>Your Recent Project</strong>
             </h4>
             <TablesAntBasic />
             {/* <h4 className="mb-4">
