@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Editor } from 'react-draft-wysiwyg'
-import { Form, Input, Select, Upload, Icon } from 'antd'
+import { Form, Input, Checkbox, Select, Upload, Icon } from 'antd'
 
 const FormItem = Form.Item
 const { Dragger } = Upload
@@ -28,7 +28,7 @@ class ExtraAppsWordpressAdd extends React.Component {
               </div>
             </div>
           </div>
-          {/* <div className="form-group">
+          <div className="form-group">
             <FormItem label="Type">
               {form.getFieldDecorator('type')(
                 <Checkbox.Group>
@@ -52,7 +52,7 @@ class ExtraAppsWordpressAdd extends React.Component {
                 </Checkbox.Group>,
               )}
             </FormItem>
-          </div> */}
+          </div>
           <div className="form-group">
             <FormItem label="Category">
               {form.getFieldDecorator('category', {
