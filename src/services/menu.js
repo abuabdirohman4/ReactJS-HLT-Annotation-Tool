@@ -20,6 +20,11 @@ export default async function getMenuData() {
           key: 'extraAppsWordpressAdd',
           url: '/extra-apps/wordpress-add',
         },
+        {
+          title: 'Al Quran',
+          key: 'cardsBasicCards',
+          url: '/cards/basic-cards',
+        },
       ],
     },
   ]
