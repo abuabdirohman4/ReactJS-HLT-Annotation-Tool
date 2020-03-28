@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Morph extends React.Component {
+class Word extends React.Component {
   constructor(props) {
     super(props)
     this.value = props.value
@@ -23,16 +23,16 @@ class Morph extends React.Component {
   render() {
     const { isHover } = this.state
     if (isHover) {
-      this.morphStyle = { color: 'red' }
+      this.wordStyle = { color: 'red', cursor: 'pointer' }
     } else {
-      this.morphStyle = { color: 'black' }
+      this.wordStyle = { color: 'black' }
     }
     return (
-      <span style={this.morphStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+      <span style={this.wordStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
         {this.value}
       </span>
     )
   }
 }
 
-export default Morph
+export default Word
